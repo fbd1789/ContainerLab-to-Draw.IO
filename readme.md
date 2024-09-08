@@ -25,4 +25,18 @@ go run main.go -f yourLabFile.yml
 ```bash
 ./containerLabToDrawIO_linux_v1 -f yourLabFile.yml
 ```
+Connection Count:
+  Spine1: 5
+  Spine2: 5
+  Leaf2a: 3
+  Leaf2b: 3
+  Leaf3a: 3
+  Leaf3b: 3
+  Leaf1: 2
+Spines Identified:
+  Spine1
+  Spine2
+DrawIO diagram generated as 'diagram.drawio'
+
+#### Result
 ![Network Diagram](diagram.png)
