@@ -21,10 +21,11 @@ This program is designed to parse a YAML configuration file that describes a net
 
 ```bash
 go run main.go -f yourLabFile.yml
-
+```
 ```bash
 ./containerLabToDrawIO_linux_v1 -f yourLabFile.yml
-
+```
+```
 Connection Count:
   Spine1: 5
   Spine2: 5
@@ -37,6 +38,7 @@ Spines Identified:
   Spine1
   Spine2
 DrawIO diagram generated as 'diagram.drawio'
+```
 
 #### Result
 ![Network Diagram](diagram.png)
