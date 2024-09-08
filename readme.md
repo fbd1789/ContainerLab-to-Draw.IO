@@ -22,4 +22,7 @@ This program is designed to parse a YAML configuration file that describes a net
 ```bash
 go run main.go -f yourLabFile.yml
 ```
+```bash
+./containerLabToDrawIO_linux_v1 -f yourLabFile.yml
+```
 ![Network Diagram](diagram.png)
