@@ -1,0 +1,65 @@
+<mxGraphModel><root>
+<mxCell id="0"/>
+<mxCell id="1" parent="0"/>
+<UserObject label="Spine1" tooltip="eth1 to Leaf1:eth1&#xa;eth2 to Leaf2a:eth1&#xa;eth3 to Leaf2b:eth2&#xa;eth4 to Leaf3a:eth1&#xa;eth5 to Leaf3b:eth1&#xa;" id="Spine1">
+<mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="100" y="100" width="80" height="30" as="geometry" />
+</mxCell>
+</UserObject>
+<UserObject label="Spine2" tooltip="eth1 to Leaf1:eth2&#xa;eth2 to Leaf2a:eth2&#xa;eth3 to Leaf2b:eth3&#xa;eth4 to Leaf3a:eth2&#xa;eth5 to Leaf3b:eth2&#xa;" id="Spine2">
+<mxCell style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="250" y="100" width="80" height="30" as="geometry" />
+</mxCell>
+</UserObject>
+<mxCell id="Leaf3a" value="Leaf3a (Leaf)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="100" y="300" width="80" height="30" as="geometry"/>
+</mxCell>
+<mxCell id="Leaf3b" value="Leaf3b (Leaf)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="200" y="300" width="80" height="30" as="geometry"/>
+</mxCell>
+<mxCell id="Leaf2a" value="Leaf2a (Leaf)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="300" y="300" width="80" height="30" as="geometry"/>
+</mxCell>
+<mxCell id="Leaf2b" value="Leaf2b (Leaf)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="400" y="300" width="80" height="30" as="geometry"/>
+</mxCell>
+<mxCell id="Leaf1" value="Leaf1 (Leaf)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+<mxGeometry x="500" y="300" width="80" height="30" as="geometry"/>
+</mxCell>
+<mxCell edge="1" parent="1" source="Leaf3a" target="Leaf3b" style="endArrow=none">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell edge="1" parent="1" source="Leaf1" target="Spine1" style="endArrow=none">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell edge="1" parent="1" source="Leaf1" target="Spine2" style="endArrow=none">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell edge="1" parent="1" source="Leaf2a" target="Spine1" style="endArrow=none">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell edge="1" parent="1" source="Leaf2a" target="Spine2" style="endArrow=none">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell edge="1" parent="1" source="Leaf2a" target="Leaf2b" style="endArrow=none">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell edge="1" parent="1" source="Leaf2b" target="Spine1" style="endArrow=none">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell edge="1" parent="1" source="Leaf2b" target="Spine2" style="endArrow=none">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell edge="1" parent="1" source="Leaf3a" target="Spine1" style="endArrow=none">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell edge="1" parent="1" source="Leaf3a" target="Spine2" style="endArrow=none">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell edge="1" parent="1" source="Leaf3b" target="Spine1" style="endArrow=none">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+<mxCell edge="1" parent="1" source="Leaf3b" target="Spine2" style="endArrow=none">
+<mxGeometry relative="1" as="geometry"/>
+</mxCell>
+</root></mxGraphModel>
